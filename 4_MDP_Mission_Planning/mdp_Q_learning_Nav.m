@@ -103,7 +103,7 @@ else
 	        % Updating the value of Q   
 	        % Decaying update coefficient (1/sqrt(n+2)) can be changed
 	        delta = r + discount*max(Q(s_new,:)) - Q(s,a);
-            learning_rate = (1/sqrt(n+2));
+            	learning_rate = (1/sqrt(n+2));
 	        dQ =learning_rate *delta;
 	        Q(s,a) = Q(s,a) + dQ; 
 	    
