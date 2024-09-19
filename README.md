@@ -36,32 +36,27 @@ We conduct numerical simulations in two environments: a grid-based environment a
     cd Comparison_of_V-Iter_Vs_P-Iter_Vs_Q-learn
     ```
 
-2. Open MATLAB and navigate to the project directory:
-    ```matlab
-    cd 'C:\\path\\to\\Comparison_of_V-Iter_Vs_P-Iter_Vs_Q-learn'
-    ```
+2. Choose the appropriate test based on the case:
 
-3. Choose the appropriate test based on the case:
-
-   - **3.1. To test the SelectionOptimal_Epsilon-value**: Navigate to the folder `"1_SelectionOptimal_Epsilon-value"` and run the MATLAB file `main.m`:
+   - **2.1. To test the SelectionOptimal_Epsilon-value**: Navigate to the folder `"1_SelectionOptimal_Epsilon-value"` and run the MATLAB file `main.m`:
      ```matlab
      cd '1_SelectionOptimal_Epsilon-value'
      run('main.m')
      ```
 
-   - **3.2. To compare the three methods with a regular case**: Navigate to the folder `"2_GenericRegularGrid"`, choose one of the subfolders corresponding to the different comparison versions, and run the file `main.m`:
+   - **2.2. To compare the three methods with a regular case**: Navigate to the folder `"2_GenericRegularGrid"`, choose one of the subfolders corresponding to the different comparison versions, and run the file `main.m`:
      ```matlab
      cd '2_GenericRegularGrid/your-version-folder'
      run('main.m')
      ```
 
-   - **3.3. To compare the three methods with an irregular case**: Navigate to the folder `"3_IrregularGrid"`, choose one of the subfolders corresponding to the different comparison versions, and run the file `main.m`:
+   - **2.3. To compare the three methods with an irregular case**: Navigate to the folder `"3_IrregularGrid"`, choose one of the subfolders corresponding to the different comparison versions, and run the file `main.m`:
      ```matlab
      cd '3_IrregularGrid/your-version-folder'
      run('main.m')
      ```
 
-   - **3.4. To compare the three methods in an experimental UAV mission planning case**: Navigate to the folder `"4_MDP_Mission_Planning"` and run the file `main.m`:
+   - **2.4. To compare the three methods in an experimental UAV mission planning case**: Navigate to the folder `"4_MDP_Mission_Planning"` and run the file `main.m`:
      ```matlab
      cd '4_MDP_Mission_Planning'
      run('main.m')
