@@ -32,13 +32,13 @@ We conduct numerical simulations in two environments: a grid-based environment a
 
 1. Clone the project repository:
     ```bash
-    git clone https://github.com/your-repo/mdp-comparison-matlab.git
-    cd mdp-comparison-matlab
+    git clone https://github.com/MohandHAMADOUCHE/Comparison_of_V-Iter_Vs_P-Iter_Vs_Q-learn.git
+    cd Comparison_of_V-Iter_Vs_P-Iter_Vs_Q-learn
     ```
 
 2. Open MATLAB and navigate to the project directory:
     ```matlab
-    cd 'C:\\path\\to\\mdp-comparison-matlab'
+    cd 'C:\\path\\to\\Comparison_of_V-Iter_Vs_P-Iter_Vs_Q-learn'
     ```
 
 3. Choose the appropriate test based on the case:
